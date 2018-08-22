@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Inventory App Stage 1</string>
+    <string name="title_activity_main">Add Book</string>
+    <string name="main_delete_all_entries">Delete all Entries</string>
+    <string name="main_insert_book">Insert Book</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_delete">Delete</string>
+
+    <!-- Label for dropdown menu option if the Supplier is unknown [CHAR LIMIT=20] -->
+    <string name="supplier_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the Supplier is Amazon [CHAR LIMIT=20] -->
+    <string name="supplier_amazon">Amazon</string>
+
+    <!-- Label for dropdown menu option if the Supplier is Jumia [CHAR LIMIT=20] -->
+    <string name="supplier_jumia">Jumia</string>
+
+    <!-- Label for dropdown menu option if the Supplier is Souq [CHAR LIMIT=20] -->
+    <string name="supplier_souq">Souq</string>
+    <string name="book_name">Book Name</string>
+    <string name="name">Name</string>
+    <string name="book_code">Book Code</string>
+    <string name="code">Code</string>
+    <string name="quantity">Quantity</string>
+    <string name="book_price">Book Price</string>
+    <string name="price">Price</string>
+    <string name="l_e">L.E</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_contact">Supplier Contact</string>
+    <string name="_02_000000">+(02) 000000</string>
+</resources>
