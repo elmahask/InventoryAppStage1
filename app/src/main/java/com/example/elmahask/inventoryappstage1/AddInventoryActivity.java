@@ -132,12 +132,12 @@ public class AddInventoryActivity extends AppCompatActivity {
         values.put(InventoryContract.COLUMN_BOOK_SUPPLIER_NAME, mSuppliersName);
         values.put(InventoryContract.COLUMN_BOOK_SUPPLIER_CONTACT, bookSupplierContact);
 
-        long rowID = dB.insert(InventoryContract.TABLE_NAME, null, values);
+        long newRowID = dB.insert(InventoryContract.TABLE_NAME, null, values);
 
-        if (rowID == -1) {
+        if (newRowID == -1) {
             Toast.makeText(this, "Error with saving", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Book saved with ID: " + rowID, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Book saved with ID: " + newRowID, Toast.LENGTH_SHORT).show();
         }
     }
 
