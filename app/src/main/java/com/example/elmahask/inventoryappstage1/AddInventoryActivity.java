@@ -156,7 +156,6 @@ public class AddInventoryActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             // Respond to a click on the "Save" menu option
             case R.id.save:
-                // Do nothing for now
                 insertProduct();
                 // Exit activity
                 finish();
