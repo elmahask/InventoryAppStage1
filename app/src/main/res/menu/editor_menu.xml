@@ -5,7 +5,6 @@
     tools:context=".AddInventoryActivity">
     <item
         android:id="@+id/save"
-        android:visible="false"
         android:icon="@drawable/ic_done_black_24dp"
         android:title="@string/editor_save"
         app:showAsAction="ifRoom" />
