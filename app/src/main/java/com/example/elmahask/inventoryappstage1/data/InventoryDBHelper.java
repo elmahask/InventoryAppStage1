@@ -5,6 +5,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import com.example.elmahask.inventoryappstage1.data.InventoryContract.InventoryEntry;
+
 public class InventoryDBHelper extends SQLiteOpenHelper {
 
     //Name of DB
@@ -18,14 +20,14 @@ public class InventoryDBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         //create table
-        String SQL_CREATE_PRODUCT_TABLE = "CREATE TABLE " + InventoryContract.TABLE_NAME + " ("
-                + InventoryContract._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + InventoryContract.COLUMN_BOOK_NAME + " TEXT NOT NULL, "
-                + InventoryContract.COLUMN_BOOK_CODE + " INTEGER NOT NULL, "
-                + InventoryContract.COLUMN_BOOK_PRICE + " INTEGER NOT NULL, "
-                + InventoryContract.COLUMN_BOOK_QUANTITY + " INTEGER NOT NULL, "
-                + InventoryContract.COLUMN_BOOK_SUPPLIER_NAME + " INTEGER NOT NULL DEFAULT 0, "
-                + InventoryContract.COLUMN_BOOK_SUPPLIER_CONTACT + " INTEGER );";
+        String SQL_CREATE_PRODUCT_TABLE = "CREATE TABLE " + InventoryEntry.TABLE_NAME + " ("
+                + InventoryEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + InventoryEntry.COLUMN_BOOK_NAME + " TEXT NOT NULL, "
+                + InventoryEntry.COLUMN_BOOK_CODE + " TEXT NOT NULL, "
+                + InventoryEntry.COLUMN_BOOK_PRICE + " INTEGER NOT NULL, "
+                + InventoryEntry.COLUMN_BOOK_QUANTITY + " INTEGER NOT NULL, "
+                + InventoryEntry.COLUMN_BOOK_SUPPLIER_NAME + " INTEGER NOT NULL DEFAULT 0, "
+                + InventoryEntry.COLUMN_BOOK_SUPPLIER_CONTACT + " INTEGER );";
 
         db.execSQL(SQL_CREATE_PRODUCT_TABLE);
 

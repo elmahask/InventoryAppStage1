@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Inventory App Stage 1</string>
+    <string name="app_name">Inventory App Stage 2</string>
     <string name="title_activity_main">Add Book</string>
-    <string name="main_delete_all_entries">Delete all Entries</string>
-    <string name="main_insert_book">Insert Book</string>
+    <string name="main_delete_all_entries">Delete all Books</string>
+    <string name="main_insert_book">Insert Inventory Book</string>
     <string name="editor_save">Save</string>
     <string name="editor_delete">Delete</string>
+    <string name="call_supplier">Call Supplier</string>
 
     <!-- Label for dropdown menu option if the Supplier is unknown [CHAR LIMIT=20] -->
     <string name="supplier_unknown">Unknown</string>
@@ -28,4 +29,56 @@
     <string name="supplier_name">Supplier Name</string>
     <string name="supplier_contact">Supplier Contact</string>
     <string name="_02_000000">+(02) 000000</string>
+
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a Book</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <!-- Title for the activity to add a new Inventory Book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_inventory_book">Add an Inventory Book</string>
+
+    <!-- Title for the activity to edit an existing Inventory Book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_inventory_book">Edit Inventory Book</string>
+
+    <!-- Label for editor menu option to save Inventory Book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current Inventory Book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new Inventory Book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_book_successful">Inventory Book saved</string>
+
+    <!-- Toast message in editor when new Inventory Book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_book_failed">Error with saving Inventory Book</string>
+
+    <!-- Toast message in editor when current Inventory Book was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_book_successful">Inventory Book updated</string>
+
+    <!-- Toast message in editor when current Inventory Book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_book_failed">Error with updating Inventory Book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current Inventory Book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_book_successful">Inventory deleted</string>
+
+    <!-- Toast message in editor when current Inventory has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_book_failed">Error with deleting Inventory</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current Inventory [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this Inventory?</string>
+
 </resources>

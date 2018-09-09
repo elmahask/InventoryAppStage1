@@ -5,12 +5,17 @@
     tools:context=".AddInventoryActivity">
     <item
         android:id="@+id/save"
-        android:icon="@drawable/ic_done_black_24dp"
+        android:icon="@drawable/ic_done"
         android:title="@string/editor_save"
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/delete"
+        android:id="@+id/call_supplier"
+        android:title="@string/call_supplier"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete_supplier"
         android:title="@string/editor_delete"
         app:showAsAction="never" />
 </menu>
